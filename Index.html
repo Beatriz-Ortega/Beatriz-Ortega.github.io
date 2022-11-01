@@ -1,12 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>"Hello World"</h1>
-</body>
+    <head class="in">
+        <meta charset="UTF-8"/>
+        <meta name="description" content="" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link href="estilos.css" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/94aaaeb905.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="menu" id="body">
+        <header>
+            <div class="icon_menu">
+                <i class="fas fa-bars" id="btn_open"></i> 
+            </div>
+    </header>
+        <nav class="menu_side" id="menu_side">
+            <a class="name_page" href="#inicio">
+                <span id="menu-logo"><img src="../Beatriz-Ortega.github.io/imagenes/Logo.svg" alt="Logo" title="Inicio"></span> 
+            </a>
+            <div>
+                <ul class="options_menu" id="sel">
+                    <li id = "op1" onclick="mark(1)" class="option"><a href="#Resumen"><i class="fa-solid fa-house" title="Resumen"></i><h4>Resumen</h4></a></li>
+                    <li id = "op2" onclick="mark(2)" class="option"><a href="#Experiencia"><i class="fa-solid fa-briefcase" title="Experiencia"></i><h4>Experiencia</h4></a></li>
+                    <li id = "op3" onclick="mark(3)" class="option"><a href="#Educacion"><i class="fa-solid fa-book-open" title="Educación"></i><h4>Educación</h4></a></li>
+                    <li id = "op4" onclick="mark(4)" class="option"><a href="#Habilidades"><i class="fa-solid fa-laptop-code" title="Habilidades"></i><h4>Habilidades</h4></a></li>
+                    <li id = "op5" onclick="mark(5)" class="option"><a href="#Proyectos"><i class="fa-solid fa-shapes" title="Proyectos"></i><h4>Proyectos</h4></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main">
+            <!-- Resumen-->
+            <section id="Resumen" on>
+                <div class="resume-section">
+                    <div class="resumen">
+                    <h1>
+                        Beatriz
+                        <span class="text-primary">Ortega</span>
+                    </h1>
+                    </div>
+                    <div class="subheading">
+                        San Martin 311, Santiago Centro, Chile <span class="telefono">(569) 3728-4858.</span>
+                        <a class="correo" href="mailto:ortega.bea87@gmail.com">ortega.bea87@gmail.com</a>
+                    </div>
+                    <p class="mb-5">Ingeniera de Sistemas con experiencia en tratos con clientes, levantamiento de requerimientos, estudio de factibilidad técnica y 
+                                        económica para productos y propuestas comerciales, gestión de proyectos y equipos de trabajo, habilidades en el manejo de 
+                                        múltiples herramientas para la gestión de procesos productivos en diferentes áreas como desarrollo de software, 
+                                        supply chain, alimentación y servicios. Experiencia trabajando en equipo interdisciplinarios y liderando equipos con personal a cargo. </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/beatriz-eugenia-ortega-rengifo-42435553" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/Beatriz-Ortega" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://api.whatsapp.com/send/?phone=56937284858&text&type=phone_number&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="social-icon" href="./Download/cv.pdf" download="CV" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+                    </div>
+                </div>
+            </section>
+            <!-- Experiencia-->
+             <section id="Experiencia" onfocus="mark(2)">
+                <div class="resume-experiencia">
+                    <h2 class="mb-5 experiencia">Experiencia</h2>
+                    <div class="mb-5">
+                        <div>
+                            <h3>Encargada Comercial</h3>
+                             <div class="mb-3"> <span class="subheading">Fruitastyc SPA</span><span class="text-primary">Junio 2018 - Junio 2019</span></div>
+                                 <p>Levantar requerimientos con clientes y crear propuestas comerciales utilizando un enfoque de ventas consultivo para maximizar los resultados del cliente. 
+                                     Desarrollar y gestionar con éxito nuevos canales de venta digitales, ecommerce y marketplace. Realizar estudios de mercado para determinar la necesidad de 
+                                     nuevos productos con foco en un nichos específicos. Determinación y seguimiento de KPI&apos;s y planteamiento de mejoras. Liderar el equipo 
+                                    productivo para cumplir con la planificaci$oacute;n, coordinando las actividades a realizar para el cumplimiento de los plazos de entrega.</p>
+                        </div>
+                    </div>      
+                    <div class="mb-5">
+                        <div>
+                            <h3>Encargada de Operaciones</h3>
+                            <div class="mb-3"><span class="subheading">SAAM S.A.</span><span class="text-primary">Junio 2018 - Junio 2019</span></div>
+                                <p>Planificar, coordinar, organizar y dirigir las operaciones diarias de recepción, almacenaje y despacho según el tipo de carga (contenedores, 
+                                pallet, carga suelta, IMO, etc), gestionando personal a cargo y recursos claves para cumplir con la demanda operacional. Realizar análisis y proponer 
+                                mejoras en las operaciones logísticas, detectando fallas en los proceso, determinando causa raíz y planteando mejoras.</p>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <div>
+                            <h3>Analista de Calidad</h3>
+                            <div class="mb-3"><span class="subheading">SAAM S.A.</span><span class="text-primary">Junio 2017 - Junio 2018</span></div>
+                                <p>Elaborar e implementar procedimientos para las diferentes etapas en la cadena de valor. Elaborar en conjunto con el área involucrada y realizar seguimiento de 
+                                kpi&apos;s para detectar desviaciones y alertar a tiempo la necesidad de aplicar de correctivos. Implementación de metodología 5S y Six Sigma en 
+                                procesos productivos, análisis de proyectos para mejora continua.</p>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <div>
+                            <h3>Encargada de Calidad y Control de Gestión</h3>
+                            <div class="mb-3"><span class="subheading">Podatal LTDA</span><span class="text-primary">Marzo 2016 - Mayo 2017</span></div>
+                                <p>Responsable de generar Kpi&apos;s que permitieran analizar el nivel de desempeño en las diferentes áreas de la empresa y efectuar propuestas 
+                                de mejora. Realizar el levantamiento de procesos de las diferentes áreas y elaborar su respectivo procedimiento. Generar manuales de procedimiento y 
+                                gestión de calidad, según la normativa ISO 9001:2015.</p>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <div>
+                            <h3>Ingeniero Industrial</h3>
+                            <div class="mb-3"><span class="subheading">Embutidos La Merideña</span><span class="text-primary">Mayo 2014 - Febrero 2015</span></div>
+                                <p>LDesarrollar y ejecutar estrategias que disminuyeron los tiempos de producción sin afectar la calidad. Elaborar diagramas de procesos y recorridos 
+                                de los diferentes productos. Plantear estrategias que aumentaron la productividad teniendo en cuenta la demanda. Planificación de adquisición de 
+                                insumos, con consideraciones de inventario, capacidad instalada y costos.  </p>
+                            </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- Educación-->
+            <section id="Educacion" onfocus="mark(3)">
+                <div class="resume-educacion">
+                    <h2 class="mb-5 educacion">Educación</h2>
+                    <div class="mb-5">
+                        <div>
+                            <h3 class="mb-0">Ingeniero de Sistema</h3>
+                            <div class="subheading mb-0">Universidad de Los Andes. Mérida, Venezuela</div>
+                        </div>
+                        <div><span class="text-secundary">Octubre 2014</span></div>
+                    </div>
+                    <div class="mb-5">
+                        <div>
+                            <h3 class="mb-0">Product Owner certification</h3>
+                            <div class="subheading mb-0">Scrum Manager</div>
+                        </div>
+                        <div><span class="text-secundary">Agosto 2022</span></div>
+                    </div>
+                    <div class="mb-5">
+                        <div>
+                            <h3 class="mb-0">Web Devolpment Fundamentals, JavaScript, React + Redux, SQL</h3>
+                            <div class="subheading mb-0">SOLOLEARN</div>
+                        </div>
+                        <div><span class="text-secundary">Agosto 2022</span></div>
+                    </div>
+                    <div class="mb-5">
+                        <div>
+                            <h3 class="mb-0">PYTHON</h3>
+                            <div class="subheading mb-0">Fundacite, Mérida, Venezuela</div>
+                        </div>
+                        <div><span class="text-secundary">Agosto 2014</span></div>
+                    </div>
+                    <div class="mb-5">
+                        <div>
+                            <h3 class="mb-0">Curso de redes, CCNA 01, Cisco</h3>
+                            <div class="subheading mb-0">Eslared, Mérida, Venezuela</div>
+                        </div>
+                        <div><span class="text-secundary">Año 2014</span></div>
+                    </div>
+                    <div class="mb-5">
+                        <div>
+                            <h3 class="mb-0">Herramientas de minería de datos y simulación numérica para la optimización de procesos industriales.</h3>
+                            <div class="subheading mb-0">Universidad de Los Andes. Venezuela</div>
+                        </div>
+                        <div><span class="text-secundary">Año 2013</span></div>
+                    </div>
+                    <div class="mb-5">
+                        <div>
+                            <h3 class="mb-0">PHP Y MYSQL</h3>
+                            <div class="subheading mb-0">Fundación EsLaRed. Mérida, Venezuela</div>
+                        </div>
+                        <div><span class="text-secundary">Año 2012</span></div>
+                    </div>
+                </div>
+            </section>
+             <!-- Habilidades-->
+             <section id="Habilidades">
+                <div class="resume-habilidades">
+                    <h2 class="mb-5 habilidades">Habilidades</h2>
+                    <div>
+                        <div class="dev_icons">
+                            <div class="dev_icon icon-move" >
+                                <span><i class="fa-sharp fa-solid fa-list-check fa-3x" title="Desarrollo de proyectos"></i></span>
+                                <span><h5>Desarrollo de proyectos</h5></span>                                                      
+                            </div>
+                            <div class="dev_icon icon-move">
+                                <span><i class="fa-solid fa-file fa-3x" title="Metodologías Ágiles"></i></span>
+                                <span><h5>Metodologías Ágiles</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">
+                                <span><i class="fab fa-jira fa-3x" title="Jira"></i></span>
+                                <span><h5>Jira</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                               
+                                <span><i class="fab fa-js-square fa-3x" title="javaScript"></i></span>
+                                <span><h5>javaScript</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                              
+                                <span><i class="fab fa-html5 fa-3x" title="HTML"></i></span>
+                                <span><h5>HTML</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                             
+                                <span><i class="fab fa-css3-alt fa-3x" title="CSS"></i></span>
+                                <span><h5>CSS</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                 
+                                <span><i class="fab fa-node fa-3x" title="Node-JS"></i></span>
+                                <span><h5>Node-JS</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                           
+                                <span></span><i class="fa-solid fa-database fa-3x" title="SQL"></i></span>
+                                <span><h5>SQL</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">
+                                <span class= "icon-move"><i class="fab fa-python fa-3x" title="Python"></i></span>
+                                <span><h5>Python</h5></span>
+                            </div>
+                            <div class="dev_icon icon-move">                        
+                                <span class= "icon-move"><i class="fa-solid fa-computer fa-3x" title="Office"></i></span>
+                               <span><h5>Office</h5></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Proyectos-->
+            <section id="Proyectos">
+                
+                <div class="resume-proyectos">
+                    <h2 class="mb-5 proyectos">Proyectos</h2>                                      
+                  
+                    <div class= "container-box">
+
+                        <div class="project-box box1">
+                           <img src="../Beatriz-Ortega.github.io/imagenes/calculadora.svg" alt="Calculadora">
+                            <h6>Calculadora</h6>
+
+                            <div class="container-p">
+                                    <p>Calculadora creada con HTML, CSS y javaScript</p>
+                            </div>
+
+                            <div class="check"> 
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                  
+                        <div class="project-box box2">
+                            <img src="../Beatriz-Ortega.github.io/imagenes/api.svg" alt="Api-Fetch">
+                            <h6>Api-Fetch</h6>
+
+                            <div class="container-p">
+                                    <p>Api creada para usar la función GET</p>
+                            </div>
+
+                            <div class="check"> 
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                  
+                        <div class="project-box box3">
+                            <img src="../Beatriz-Ortega.github.io/imagenes/carro.svg" alt="Car">                            
+                            <h6>Carro de Compras</h6>
+
+                            <div class="container-p">
+                                <p>Modelo de una pagina con carro de compra utilizando HTML, CSS y javaScript</p>
+                            </div>
+
+                            <div class="check"> 
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                    
+                        <div class="project-box box4">
+                            <img src="../Beatriz-Ortega.github.io/imagenes/web.svg" alt="Web-Page">                          
+                            <h6>Web Page</h6>
+
+                            <div class="container-p">
+                                <p>Pagina web con menú sandwich, creada utilizando HTML, CSS y javaScript</p>
+                            </div>
+
+                            <div class="check"> 
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="box-footer">
+               <div class="logo-footer"><img src="../Beatriz-Ortega.github.io/imagenes/Logo.svg" alt="Logo"></div>
+               <div class="copytext">© Beatriz Ortega R.</div>
+            </div>
+
+            <div class="box-footer">
+                <a class="s-icon-foot" href="https://www.linkedin.com/in/beatriz-eugenia-ortega-rengifo-42435553" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="s-icon-foot" href="https://github.com/Beatriz-Ortega" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="s-icon-foot" href="https://api.whatsapp.com/send/?phone=56937284858&text&type=phone_number&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <div class="box-footer">
+                <span class="copytext">ortega.bea87@gmail.com</span>
+             </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
 </html>
