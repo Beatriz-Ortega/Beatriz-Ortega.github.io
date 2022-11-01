@@ -106,7 +106,7 @@ function box_selected3 () {
 }
 
 function box_selected4 () {
-    window.open('https://github.com/Beatriz-Ortega/Api-Fetch', '_blank');
+    window.open('https://github.com/Beatriz-Ortega/Beatriz-Ortega.github.io', '_blank');
     box4.classList.toggle('box-selected');
     check_bg4.classList.toggle('check-selected');
     icon_check4.classList.toggle('icon-check');
