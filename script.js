@@ -15,7 +15,7 @@ var logo = document.getElementById("menu-logo")
 
 //Si el ancho de la página es menor a 760px, ocultará el menú al recargar la página
 
-if (window.innerWidth < 800){
+if (window.innerWidth < 760){
 
     body.classList.add("body_move");
     side_menu.classList.add("menu__side_move");
@@ -25,7 +25,7 @@ if (window.innerWidth < 800){
 
 window.addEventListener("resize", function(){
 
-    if (window.innerWidth > 800){
+    if (window.innerWidth > 760){
 
         body.classList.remove("body_move");
         side_menu.classList.remove("menu__side_move");
