@@ -17,7 +17,7 @@
     </header>
         <nav class="menu_side" id="menu_side">
             <a class="name_page" href="#inicio">
-                <span id="menu-logo"><img src="./Imagenes/Logo.svg" alt="Logo" title="Inicio"></span> 
+                <span id="menu-logo"><img src="./imagenes/Logo.svg" alt="Logo" title="Inicio"></span> 
             </a>
             <div>
                 <ul class="options_menu" id="sel">
@@ -31,7 +31,7 @@
         </nav>
         <div class="main">
             <!-- Resumen-->
-            <section id="Resumen" on>
+            <section id="Resumen">
                 <div class="resume-section">
                     <div class="resumen">
                     <h1>
@@ -56,7 +56,7 @@
                 </div>
             </section>
             <!-- Experiencia-->
-             <section id="Experiencia" onfocus="mark(2)">
+             <section id="Experiencia">
                 <div class="resume-experiencia">
                     <h2 class="mb-5 experiencia">Experiencia</h2>
                     <div class="mb-5">
@@ -109,7 +109,7 @@
                 </div>
             </section>
             <!-- Educación-->
-            <section id="Educacion" onfocus="mark(3)">
+            <section id="Educacion">
                 <div class="resume-educacion">
                     <h2 class="mb-5 educacion">Educación</h2>
                     <div class="mb-5">
@@ -165,10 +165,10 @@
             </section>
              <!-- Habilidades-->
              <section id="Habilidades">
-                <div class="resume-habilidades">
+                <div class="resume-habilidades" >
                     <h2 class="mb-5 habilidades">Habilidades</h2>
-                    <div>
-                        <div class="dev_icons">
+                    <div class="container">
+                        <div class="dev_icons parallax">
                             <div class="dev_icon icon-move" >
                                 <span><i class="fa-sharp fa-solid fa-list-check fa-3x" title="Desarrollo de proyectos"></i></span>
                                 <span><h5>Desarrollo de proyectos</h5></span>                                                      
@@ -221,55 +221,55 @@
                   
                     <div class= "container-box">
 
-                        <div class="project-box box1">
-                           <img src="./Imagenes/calculadora.svg" alt="Calculadora">
+                        <div class="project-box" id="box1" onclick="selec(1)">
+                           <img src="./imagenes/calculadora.svg" alt="Calculadora">
                             <h6>Calculadora</h6>
 
                             <div class="container-p">
                                     <p>Calculadora creada con HTML, CSS y javaScript</p>
                             </div>
 
-                            <div class="check"> 
-                                <i class="fas fa-check"></i>
+                            <div> 
+                               <a class="botom" href="https://github.com/Beatriz-Ortega/Calculadora" target="_blank'">Código</a> 
                             </div>
                         </div>
                   
-                        <div class="project-box box2">
-                            <img src="./Imagenes/api.svg" alt="Api-Fetch">
+                        <div class="project-box" id="box2" onclick="selec(2)">
+                            <img src="./imagenes/api.svg" alt="Api-Fetch">
                             <h6>Api-Fetch</h6>
 
                             <div class="container-p">
                                     <p>Api creada para usar la función GET</p>
                             </div>
 
-                            <div class="check"> 
-                                <i class="fas fa-check"></i>
+                            <div> 
+                                <a class="botom" href="https://github.com/Beatriz-Ortega/Api-Fetch" target="_blank'">Código</a> 
                             </div>
                         </div>
                   
-                        <div class="project-box box3">
-                            <img src="./Imagenes/carro.svg" alt="Car">                            
+                        <div class="project-box" id="box3" onclick="selec(3)">
+                            <img src="./imagenes/carro.svg" alt="Car">                            
                             <h6>Carro de Compras</h6>
 
                             <div class="container-p">
                                 <p>Modelo de una pagina con carro de compra utilizando HTML, CSS y javaScript</p>
                             </div>
 
-                            <div class="check"> 
-                                <i class="fas fa-check"></i>
+                            <div> 
+                                <a class="botom" href="https://github.com/Beatriz-Ortega/carrito-de-compra" target="_blank'">Código</a> 
                             </div>
                         </div>
                     
-                        <div class="project-box box4">
-                            <img src="./Imagenes/web.svg" alt="Web-Page">                          
+                        <div class="project-box" id="box4" onclick="selec(4)">
+                            <img src="./imagenes/web.svg" alt="Web-Page">                          
                             <h6>Web Page</h6>
 
                             <div class="container-p">
                                 <p>Pagina web con menú sandwich, creada utilizando HTML, CSS y javaScript</p>
                             </div>
 
-                            <div class="check"> 
-                                <i class="fas fa-check"></i>
+                            <div> 
+                                <a class="botom" href="https://github.com/Beatriz-Ortega/Beatriz-Ortega.github.io" target="_blank'">Código</a> 
                             </div>
                         </div>
                     </div>
@@ -278,7 +278,7 @@
         </div>
         <footer class="footer">
             <div class="box-footer">
-               <div class="logo-footer"><img src="./Imagenes/Logo.svg" alt="Logo"></div>
+               <div class="logo-footer"><img src="./imagenes/Logo.svg" alt="Logo"></div>
                <div class="copytext">© Beatriz Ortega R.</div>
             </div>
 
