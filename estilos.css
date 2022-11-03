@@ -177,7 +177,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1rem + 0.5vw);
 }
 
 p.lead {
@@ -279,7 +279,7 @@ p {
     font-size: 3.5rem;
   }
   h3, .h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   h4, .h4 {
     font-size: 0.75rem;
@@ -435,8 +435,9 @@ p {
   align-items: center;
   position: relative;
   width: 350px;
+  height: 150px;
   color: rgb(53, 23, 71);
-  padding: 70px 50px 70px 50px;
+  padding: 0px 50px 0px 50px;
   vertical-align: middle;
   display: inline-flex
 };
@@ -466,7 +467,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  cursor: pointer;
 
 }
 
@@ -480,6 +480,7 @@ p {
   text-align: center;
   margin-top: 100px;
   position: relative;
+  justify-content: center;
 }
 
 .project-box img{
@@ -502,6 +503,7 @@ p {
   overflow: hidden;
   border-radius: 0px 0px 14px 14px;
   padding: 0px 10px;
+  z-index: 20;
 }
 
 .project-box p{
@@ -510,24 +512,6 @@ p {
   opacity: 0;
   transform: translateY(150px);
   transition: all 600ms;
-}
-
-.project-box .check{
-position: absolute;
-bottom: 20px;
-left: 50%;
-transform: translate(-50%);
-border: 2px solid #f5f5f5;
-border-radius: 100%;
-width: 30px;
-height: 30px;
-background-color: white;
-}
-
-.project-box .check i{
-  margin-top: 4px;
-  color:white;
-  display: none;
 }
 
 /*Efecto Hoover */
@@ -556,15 +540,24 @@ background-color: white;
   transition: all 600ms
 }
 
-.icon-check {
-  display: block !important;
+/*botom*/
+.botom{
+  background: rgb(53, 23, 71);
+  padding: 5px 25px 5px 25px;
+  text-align: center;
+  color: #f5f5f5;
+  display: block;
+  margin-top: 10px;
+  z-index: 100;
+  position:absolute;
+  cursor: pointer;
+  margin-left: 55px;
+  border-radius: 10px;
 }
-
-.check-selected {
-  background:rgb(53, 23, 71) !important;
-  border: none;
-  transition: all 600ms;
+.botom a{
+  color: #ffffff;
 }
+ 
 
 .footer{
   width: 100%;
